@@ -228,16 +228,20 @@ button:hover{
         width:300px;
         margin-left: 120px;
         margin-top: -50px;
-        transition: all 0.5s ease;
-        transform: scale(1);
         cursor: pointer;
         animation: float 3s ease-in-out infinite;
+        font-family: "Gravitas One", serif;
+        font-size: 30px;
+        color: rgb(145, 7, 129);
+        display: flex;
+        align-items: center; 
+        justify-content: center;
 
     }
     .project1:hover{
-         transform: scale(1.2) perspective(1px);
          background-color:rgb(255, 0, 221);
          border:4px solid rgb(255, 0, 221);   
+         color: #fff;
     }
     .project2{
         background-color:rgba(255, 0, 221, 0.185);
@@ -251,12 +255,19 @@ button:hover{
         transform: scale(1);
         cursor: pointer;
         animation: float 3s ease-in-out infinite;
+        font-family: "Gravitas One", serif;
+        font-size: 30px;
+        color: rgb(145, 7, 129);
+        display: flex;
+        align-items: center; 
+        justify-content: center;
 
     }
     .project2:hover{
           transform: scale(1.2) perspective(1px);
          background-color:rgb(255, 0, 221);
          border:4px solid rgb(255, 0, 221);  
+         color: #fff;
     }
     .project3{
         background-color:rgba(255, 0, 221, 0.185);
@@ -270,42 +281,20 @@ button:hover{
         transform: scale(1);
         cursor: pointer;
         animation: float 3s ease-in-out infinite;
+        font-family: "Gravitas One", serif;
+        font-size: 30px;
+        color: rgb(145, 7, 129);
+        display: flex;
+        align-items: center; 
+        justify-content: center;
     }
      .project3:hover{
         transform: scale(1.2) perspective(1px);
          background-color:rgb(255, 0, 221);
          border:4px solid rgb(255, 0, 221);  
+         color: #fff;
     }
-    .project-text1{
-        font-family: "Gravitas One", serif;
-        font-size: 30px;
-        line-height: 1.5;
-        color: rgb(145, 7, 129);
-        margin-top: 90px;
-    }
-    .project-text1:hover{
-         color: rgb(255, 255, 255);
-    }
-    .project-text2{
-        font-family: "Gravitas One", serif;
-        font-size: 30px;
-        line-height: 1.5;
-        color: rgb(145, 7, 129);
-        margin-top: 130px;
-    }
-    .project-text2:hover{
-         color: rgb(255, 255, 255);
-    }
-    .project-text3{
-        font-family: "Gravitas One", serif;
-        font-size: 30px;
-        line-height: 1.5;
-        color: rgb(145, 7, 129);
-        margin-top: 100px;
-    }
-    .project-text3:hover{
-         color: rgb(255, 255, 255);
-    }
+
     .connect{
         font-size: 30px;
         line-height: 1.5;
